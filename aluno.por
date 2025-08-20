@@ -16,8 +16,9 @@ programa {
     media = (nota1+nota2)/2
 
     escreva("\n","o aluno: ",aluno,
-            "tirou em ",disc1," ",nota1,"pontos",
-            "\n","")
+            "\n","tirou em ",disc1," ",nota1,"pontos",
+            "\n","na disciplina de ",disc2, " ",nota2,"pontos",
+            "\n","a média das notas de ",aluno, "é: ", media)
  
 
   }
