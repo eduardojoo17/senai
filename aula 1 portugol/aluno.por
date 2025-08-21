@@ -1,7 +1,7 @@
 programa {
   funcao inicio() {
     cadeia aluno, disc1, disc2
-    inteiro nota1 , nota2 , media
+    real nota1 , nota2 , media
     escreva ("nome do aluno: ")
     leia(aluno)
     escreva ("indique quais disciplinas","\n","a primeira: ")
