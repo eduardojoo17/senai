@@ -6,21 +6,25 @@ programa {
 faca{
     escreva("\n digite a idade da pessoa: ")
     leia(idade)
- se(idade<16)
-    {
-      escreva("participante negado(menor de idade)")
+    se(idade ==0)
+    { escreva("programa finalizado")
     }
-    senao se(idade>=16 e idade<=18)
+   senao se(idade<16)
     {
-        escreva("participante necessita estar acompanhado pelos pais")
+      escreva("participante negado(menor de idade)\n")
+    }
+    senao se(idade<18)
+    {
+        escreva("participante necessita estar acompanhado pelos pais\n")
     }
     senao{
-      escreva("participante entrada permitida")
+      escreva("participante entrada permitida\n")
     }
     
-}enquanto(idade>1)
-
-   
+}
+enquanto(idade!=0)
+  
+ 
 }
 }
 
