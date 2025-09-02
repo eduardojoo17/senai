@@ -12,12 +12,15 @@ programa {
       leia(n2)
       escreva("digite a terceira nota: ")
       leia(n3)
+
+      media = mediaNotas(n1,n2,n3)  
+
       
         se (mediaNotas(n1,n2,n3)>=6){
-          escreva(mediaNotas(n1,n2,n3)," aprovado") 
+          escreva(media," aprovado") 
 
         }senao{
-          escreva(mediaNotas(n1,n2,n3)," reprovado")
+          escreva(media," reprovado")
         }
 
   }
