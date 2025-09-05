@@ -68,5 +68,3 @@ imc=imc(p,a)
 }
 
 
-escreva("seu imc é " ,imc)
-escreva(imcgenero(genero,imc))
