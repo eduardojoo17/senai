@@ -1,5 +1,5 @@
 programa {
-  const inteiro L=2,C=2
+  const inteiro L=3,C=3
   
   funcao inicio() {
    real mtz[L][C], soma=0
@@ -20,6 +20,6 @@ programa {
     }
 
 
-escreva("o resultado é",soma)
+escreva("o resultado da soma da diagonal da matriz é: ",soma)
   }
 }
